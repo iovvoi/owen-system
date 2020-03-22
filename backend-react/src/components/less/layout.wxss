@@ -1,0 +1,43 @@
+.main-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-layout .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.site-layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.site-layout .trigger:hover {
+  color: #1DA57A;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrap .header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-wrap .badge {
+  margin-right: 20px;
+}
+.header-wrap .header-user {
+  margin-right: 16px;
+}
